@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native';
 import { getFontFamily } from './assets/fonts/helper';
 import Title from './components/Title/Title';
 
@@ -8,8 +8,9 @@ import Title from './components/Title/Title';
 const App =() => {
   return (
     <SafeAreaView>
-      <Text style = {{fontSize:70, fontFamily: getFontFamily(700)}}>Business Tycoon</Text>
+      <View>
       <Title title={"Let's Explore"} />
+      </View>
     </SafeAreaView>
   );
 }

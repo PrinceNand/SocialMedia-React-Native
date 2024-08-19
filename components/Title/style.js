@@ -1,9 +1,11 @@
 import { StyleSheet } from "react-native";
-import title from "./Title";
+import { getFontFamily } from "../../assets/fonts/helper";
 
 const style = StyleSheet.create({
     title:{
-        color: 'red'
+        color: '#022150',
+        fontFamily: getFontFamily('Inter', '600'),
+        fontSize: 24,
     }
 });
 
