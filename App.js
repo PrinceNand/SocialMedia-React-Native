@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FlatList, SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 import Title from './components/Title/Title';
-import globalStyle from './globalStyle';
+import globalStyle from './assets/style/globalStyle';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import UserStory from './components/UserStory/UserStory';
